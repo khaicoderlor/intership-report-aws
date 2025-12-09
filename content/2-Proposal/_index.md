@@ -35,7 +35,7 @@ The VoltGo platform is built on a secure, scalable, and fully managed AWS server
 
 ### AWS Services Used
 - **Amazon ECS Fargate**: Serverless container orchestration for backend microservices.
-- **Amazon PostgreSQL**: Relational database.
+- **Amazon RDS PostgreSQL**: Relational database.
 - **Amazon ElastiCache Serverless (Valkey)**: In-memory caching for low-latency data access.
 - **Amazon API Gateway**: Secure REST API entry point integrated via PrivateLink.
 - **Amazon Cognito**: User authentication and authorization with JWT and MFA.
@@ -109,7 +109,6 @@ This budget estimate is based on the provided AWS architecture diagram and the "
 ### Infrastructure Costs
 - AWS Services (Monthly Estimate):
     - Amazon Route 53: $0.50/month (1 hosted zone).
-    - AWS WAF: $6.00/month (1 WebACL + 1 Rule + minimal requests).
     - AWS S3 Standard: $0.00/month (Stays within 5GB Always Free tier).
     - Amazon CloudFront: $0.00/month (Stays within 1TB/10M request Always Free tier).
     - AWS Cognito: $0.00/month (Stays within 10,000 MAU free tier).
@@ -119,7 +118,7 @@ This budget estimate is based on the provided AWS architecture diagram and the "
     - Application Load Balancer: $17.52/month (1 ALB, minimal processing).
     - VPC Endpoint (PrivateLink): $7.30/month (1 Endpoint, 1 AZ, 1GB data).
     - Amazon ECS on Fargate: ~$20.00/month (Assumes 2 minimal 24/7 containers, e.g., 0.25 vCPU/0.5GB RAM).
-    - Amazon Aurora Serverless v2: ~$25.00/month (Minimal ACUs, configured to scale to near-zero).
+    - Amazon RDS: ~$25.00/month (Minimal ACUs, configured to scale to near-zero).
     - Amazon ElastiCache Serverless: ~$10.00/month (Minimal usage).
     - Amazon CloudWatch: $0.00/month (Stays within 5GB log Always Free tier).
     - Amazon ECR: ~$0.10/month (Minimal storage over 500MB free tier).

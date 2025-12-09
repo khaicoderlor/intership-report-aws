@@ -31,11 +31,11 @@ Thiết kế theo AWS Well-Architected Framework giúp tối ưu chi phí vận 
 ### 3. Kiến trúc giải pháp  
 Nền tảng VoltGo được xây dựng trên kiến trúc AWS serverless an toàn, linh hoạt và được quản lý hoàn toàn. Các dịch vụ backend được triển khai trên Amazon ECS Fargate với image container được lưu trữ trong Amazon ECR. Hệ thống sử dụng Aurora PostgreSQL Serverless v2 làm cơ sở dữ liệu quan hệ chính và ElastiCache Serverless (Valkey/Redis) để caching và quản lý session với độ trễ thấp. Tất cả các dịch vụ được vận hành trong private subnet trên nhiều Availability Zones và được truy cập an toàn thông qua Amazon API Gateway tích hợp với Application Load Balancer qua AWS PrivateLink. Xác thực người dùng được quản lý bằng Amazon Cognito với hỗ trợ JWT và MFA. Phần frontend được lưu trữ trên Amazon S3 và phân phối toàn cầu thông qua Amazon CloudFront, kết hợp với AWS WAF và ACM để bảo mật SSL/TLS. Các tính năng AI được triển khai bằng Amazon Bedrock thông qua AWS Lambda, trong khi Amazon Location Service được sử dụng để hiển thị bản đồ và tìm kiếm trạm gần nhất. Việc giám sát và ghi log được tập trung tại Amazon CloudWatch, và toàn bộ hạ tầng được triển khai tự động bằng Terraform nhằm đảm bảo tính nhất quán và dễ mở rộng.
 
-![Voltgo Station Architecture](/images/voltgo_architecure.png)
+![Voltgo Station Architecture](/images/2-Proposal/voltgo_architecture.png)
 
 ### AWS Services Used
 - **Amazon ECS Fargate**: Serverless container orchestration for backend microservices.
-- **Amazon PostgreSQL**: Relational database.
+- **Amazon RDS PostgreSQL**: Relational database.
 - **Amazon ElastiCache Serverless (Valkey)**: In-memory caching for low-latency data access.
 - **Amazon API Gateway**: Secure REST API entry point integrated via PrivateLink.
 - **Amazon Cognito**: User authentication and authorization with JWT and MFA.
@@ -48,6 +48,9 @@ Nền tảng VoltGo được xây dựng trên kiến trúc AWS serverless an to
 - **Amazon EC2**: Bastion Server connect RDS to config extension and running script
 - **Amazon Lambda**: Bridge connect with Bedrock to handle api in QA from user
 - **Amazon ECR**: Repository store image for ecs task
+
+### Component Design
+
 
 ### 4. Triển khai kỹ thuật  
 *Các giai đoạn triển khai*  
