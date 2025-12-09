@@ -7,57 +7,56 @@ pre: " <b> 1.7. </b> "
 
 ### Mục tiêu tuần 7:
 
-* Tìm hiểu sâu AWS Cognito cho developer implementation
-* Học AWS Lambda cơ bản và mô hình thực thi
-* Triển khai Redis caching patterns với Spring framework
-* Thực hành tích hợp OAuth2 với Google login
+* Thành thạo API Gateway để quản lý RESTful API
+* Học các tính năng nâng cao của Lambda và các mẫu thiết kế
+* Hiểu rõ cơ sở dữ liệu NoSQL DynamoDB
+* Thực hành Step Functions và EventBridge cho các quy trình làm việc
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
-| 2 | **Cognito cho Developers:** <br> - Tìm hiểu sâu về cấu hình User Pool <br> - Cấu hình Hosted UI và custom domain <br> - Hiểu OAuth2 flows và cấu trúc JWT token | 22/09/2025 | 22/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 3 | **Lambda Cơ bản:** <br> - Học Lambda handler, runtime environments <br> - Cấu hình memory, timeout, và environment variables <br> - Tạo IAM roles cho Lambda execution | 23/09/2025 | 23/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 4 | **Triển khai Cognito Local:** <br> - Triển khai user REGISTER flow <br> - Triển khai LOGIN với username/password <br> - Triển khai CONFIRM email verification <br> - Triển khai RESET PASSWORD và REFRESH TOKEN | 24/09/2025 | 24/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | **Chuẩn bị OAuth2:** <br> - Học OAuth2 authorization code flow <br> - Cấu hình Google Cloud Console cho OAuth2 <br> - Lấy client ID và client secret <br> - Cấu hình redirect URIs | 25/09/2025 | 25/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 6 | **Tích hợp Google Login:** <br> - Cấu hình Cognito Identity Provider cho Google <br> - Triển khai social login flow trong ứng dụng <br> - Test OAuth2 callback handling <br> - Xử lý Google user attributes mapping | 26/09/2025 | 26/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 7 | **Redis Caching Patterns:** <br> - Triển khai Redis Template trong Spring Boot <br> - Sử dụng @Cacheable annotation cho method caching <br> - Thiết kế cache key strategy <br> - Cấu hình TTL cho các kiểu dữ liệu khác nhau | 27/09/2025 | 27/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 2 | **API Gateway REST API:** <br> - Stages, deployments, và versioning của API Gateway <br> - Request/response transformations <br> - API keys, usage plans, và throttling <br> **Practice:** Tạo REST API với Lambda integration | 20/10/2025 | 20/10/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | **Lambda Advanced:** <br> - Lambda layers để tái sử dụng code <br> - Environment variables và secrets integration <br> - Lambda destinations và dead-letter queues <br> **Practice:** Xây dựng Lambda với layers, triển khai error handling | 21/10/2025 | 21/10/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | **DynamoDB Cơ bản:** <br> - DynamoDB tables, partition keys, sort keys <br> - Read/write capacity modes: provisioned vs on-demand <br> - DynamoDB Streams cho change data capture <br> **Practice:** Tạo table, thực hiện CRUD operations, query patterns | 22/10/2025 | 22/10/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | **AWS Step Functions:** <br> - Thiết kế state machine với ASL (Amazon States Language) <br> - Task states, choice states, parallel execution <br> - Error handling và retry policies <br> **Practice:** Tạo workflow orchestrating Lambda functions | 23/10/2025 | 23/10/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | **EventBridge:** <br> - Event-driven architecture patterns <br> - Event buses, rules, và targets <br> - Schedule expressions cho cron jobs <br> **Practice:** Tạo event rules triggering Lambda/Step Functions | 24/10/2025 | 24/10/2025 | <https://cloudjourney.awsstudygroup.com/> |
 
 ### Kết quả đạt được tuần 7:
 
-* **Thành thạo Cognito Authentication:**
-  * Triển khai thành công auth flow hoàn chỉnh: sign-up, confirm, login, logout
-  * Cấu hình password policies và MFA settings
-  * Tích hợp Cognito Hosted UI với custom domain
-  * Triển khai JWT token validation trong backend API
+* **Thành thạo API Gateway:**
+  * Tạo REST API với nhiều resources và methods
+  * Cấu hình request/response mapping templates
+  * Triển khai API key authentication và usage plans
+  * Thiết lập throttling và rate limiting để bảo vệ API
 
-* **Social Authentication:**
-  * Tích hợp thành công Google OAuth2 login
-  * Cấu hình attribute mapping từ Google sang Cognito
-  * Xử lý federated identity scenarios
-  * Kiểm tra user experience cho social login flow
+* **Kỹ năng Lambda Advanced:**
+  * Tạo Lambda layers cho shared code/dependencies
+  * Cấu hình environment variables và Secrets Manager integration
+  * Triển khai destinations cho async invocations
+  * Thiết lập DLQ (Dead Letter Queue) cho failed executions
 
-* **Nền tảng Lambda:**
-  * Tạo Lambda function đầu tiên với Node.js runtime
-  * Cấu hình execution role với IAM permissions phù hợp
-  * Kiểm tra synchronous và asynchronous invocations
-  * Hiểu Lambda pricing và tối ưu cold start
+* **Thành thạo DynamoDB:**
+  * Thiết kế DynamoDB table với optimal partition/sort key
+  * Triển khai efficient query và scan patterns
+  * Cấu hình DynamoDB Streams cho change tracking
+  * Hiểu single-table design patterns
 
-* **Triển khai Caching:**
-  * Giảm 80% database queries sử dụng Redis cache
-  * Triển khai cache-aside pattern với @Cacheable
-  * Cấu hình TTL phù hợp cho các kiểu dữ liệu khác nhau
-  * Triển khai cache invalidation strategies
+* **Workflow Orchestration:**
+  * Tạo Step Functions state machine với ASL
+  * Triển khai parallel execution và error handling
+  * Cấu hình retry policies và exponential backoff
+  * Orchestrate multi-Lambda workflows thành công
 
-* **Redis Advanced Patterns:**
-  * Sử dụng RedisTemplate cho complex data structures
-  * Triển khai pub/sub cho real-time updates
-  * Cấu hình Redis cluster cho high availability
-  * Giám sát cache hit ratio và tối ưu key design
+* **Event-Driven Architecture:**
+  * Xây dựng EventBridge rules cho real-time event routing
+  * Tạo custom event buses cho application events
+  * Lập lịch Lambda executions với cron expressions
+  * Triển khai event filtering với content-based routing
 
-* **Security Best Practices:**
-  * Lưu Cognito secrets trong AWS Secrets Manager
-  * Triển khai refresh token rotation
-  * Cấu hình CORS phù hợp cho OAuth2 redirects
-  * Sử dụng HTTPS cho tất cả authentication endpoints
+* **Serverless Integration:**
+  * Xây dựng complete serverless API: API Gateway + Lambda + DynamoDB
+  * Giảm infrastructure management overhead về zero
+  * Đạt auto-scaling mà không cần configuration
+  * Hiểu serverless pricing và cost optimization
 
 
