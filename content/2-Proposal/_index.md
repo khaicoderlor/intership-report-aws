@@ -8,6 +8,8 @@ pre: " <b> 2. </b> "
 # The EV Station-based Rental System
 ## Electric Vehicle Rental and Return Software at Fixed Stations – A Green Mobility Solution for Smart Cities
 
+📄 **[View Full Proposal Document (Google Docs)](https://docs.google.com/document/d/1VeR7Leu9Yq4LMlgPcfKtcE0IfO-K-DO4fgaWR8af7t0/edit?tab=t.0)**
+
 ### 1. Executive Summary
 The EV Station-based Rental System is developed to provide an all-in-one platform for electric vehicle rental and charging management. It integrates real-time rental, payment, and charging station access through a unified cloud-native solution. The system features a React Native mobile app and a Spring Boot backend deployed on AWS ECS Fargate, with PostgreSQL (RDS) and Redis (ElastiCache) for data and caching. User authentication is managed via Amazon Cognito, and global delivery is optimized using CloudFront. Designed under the AWS Well-Architected Framework, the platform ensures scalability, high availability, and security while maintaining cost efficiency.
 
