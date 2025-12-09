@@ -1,5 +1,5 @@
 # PowerShell Script to Update All Worklog Weeks
-# Run this from: E:\aws\facj\final\fcj-workshop-template
+# Run this from: E:\aws\final_report\intership-report-aws
 
 Write-Host "Starting Worklog Update Process..." -ForegroundColor Green
 
