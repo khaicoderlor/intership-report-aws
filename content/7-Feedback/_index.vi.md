@@ -290,21 +290,11 @@ Người hướng dẫn và nhóm luôn hỗ trợ, văn hóa khuyến khích h�
 
 ### 10. Lời cảm ơn
 
-Tôi xin chân thành cảm ơn:
+Nhìn lại chặng đường đã qua tại FCJ, em nhận thấy sự trưởng thành của mình mang đậm dấu ấn dẫn dắt từ đội ngũ Admin và Mentor đầy tâm huyết. Em xin gửi lời tri ân sâu sắc đến các anh: Nguyễn Gia Hưng, Văn Hoàng Kha, Lữ Hoàn Thiện, Nguyễn Tuấn Thịnh, Lê Nguyễn Vũ Hoàng và Nguyễn Đồng Thanh Hiệp. Chính sự chỉ dẫn tỉ mỉ, từ những thao tác nhỏ nhất đến tư duy định hướng chiến lược học tập của các anh, đã giúp em xây dựng nền tảng vững chắc cho bản thân. Em vô cùng trân quý sự kiên nhẫn và những lời động viên đúng lúc mà các anh đã dành cho em trong những thời điểm thử thách. Những bài học quý giá này sẽ là hành trang không thể thiếu trên con đường sự nghiệp phía trước. Kính chúc các anh luôn có nhiều thành công trong cuộc sống, giữ vững ngọn lửa đam mê góp phần xây dựng cộng đồng AWS thêm lớn mạnh.
 
-**Đội ngũ FCJ** - đã tạo ra một chương trình thực tập chất lượng và môi trường học tập tuyệt vời.
+12 tuần với FCJ Workforce là một trong những trải nghiệm quý giá nhất trong hành trình học tập của em. Những kiến thức, kỹ năng, và mối quan hệ thu được sẽ là nền tảng vững chắc cho con đường nghề nghiệp phía trước.
 
-**Người hướng dẫn** - đã kiên nhẫn hướng dẫn, chia sẻ kinh nghiệm, và truyền cảm hứng để tôi phát triển mỗi ngày.
-
-**Các thành viên trong nhóm** - đã chào đón tôi vào nhóm, sẵn sàng giúp đỡ, và tạo không khí làm việc tích cực.
-
-**Cộng đồng AWS** - đã chia sẻ kiến thức, hỗ trợ, và tạo ra những kết nối quý giá.
-
-**Bạn bè cùng thực tập** - đã cùng nhau học hỏi, hỗ trợ, và tạo nên những kỷ niệm đáng nhớ.
-
-12 tuần với FCJ Workforce là một trong những trải nghiệm quý giá nhất trong hành trình học tập của tôi. Những kiến thức, kỹ năng, và mối quan hệ thu được sẽ là nền tảng vững chắc cho con đường nghề nghiệp phía trước.
-
-Cảm ơn FCJ đã cho tôi cơ hội này!
+Cảm ơn FCJ đã cho em cơ hội này!
 
 ---
 

@@ -293,31 +293,12 @@ Mentors and team always provide support, culture encourages learning. This is a 
 
 I sincerely thank:
 
-**FCJ Team** - for creating a quality internship program and excellent learning environment.
+"Reflecting on my journey at FCJ, I realize that my growth is deeply rooted in the dedicated guidance of the Admin and Mentor team. I would like to express my profound gratitude to Mr. Nguyen Gia Hung, Mr. Van Hoang Kha, Mr. Lu Hoan Thien, Mr. Nguyen Tuan Thinh, Mr. Le Nguyen Vu Hoang, and Mr. Nguyen Dong Thanh Hiep.
 
-**Mentors** - for patiently guiding, sharing experiences, and inspiring me to grow every day.
+Your meticulous instruction—ranging from the smallest technical details to a strategic approach to learning—has helped me build a solid foundation. I deeply cherish the patience and timely encouragement you extended to me during challenging moments. These invaluable lessons will serve as essential preparation for my future career path. I wish you all continued success in life and hope you keep the flame of passion alive to help the AWS community grow even stronger.
 
-**Team members** - for welcoming me to the team, being ready to help, and creating a positive work atmosphere.
+The past 12 weeks with FCJ Workforce have been one of the most valuable experiences of my educational journey. The knowledge, skills, and connections I have gained will serve as a firm foundation for my future career.
 
-**AWS Community** - for sharing knowledge, support, and creating valuable connections.
-
-**Fellow interns** - for learning together, supporting each other, and creating memorable experiences.
-
-The 12 weeks with FCJ Workforce is one of the most valuable experiences in my learning journey. The knowledge, skills, and connections gained will be a solid foundation for my career path ahead.
-
-Thank you FCJ for this opportunity!
+Thank you, FCJ, for giving me this opportunity!
 
 ---
-
-### Contact Information
-
-If you have any questions about the internship experience or want to discuss more about AWS and cloud computing, welcome to connect:
-
-- **Email**: [Your Email]
-- **LinkedIn**: [Your LinkedIn Profile]
-- **GitHub**: [Your GitHub Profile]
-- **Technical Blog**: [Your Blog URL]
-
----
-
-*Last updated: December 2025*
